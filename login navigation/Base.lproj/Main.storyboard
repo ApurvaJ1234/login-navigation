@@ -91,15 +91,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f22-6h-WzV">
-                                <rect key="frame" x="37" y="467" width="75" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Submit"/>
-                                <connections>
-                                    <action selector="submit:" destination="NTZ-0P-YEk" eventType="touchUpInside" id="zBY-ht-JaI"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hu-NK-1wk">
                                 <rect key="frame" x="37" y="234" width="216" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -148,6 +139,15 @@
                                     <action selector="phone:" destination="NTZ-0P-YEk" eventType="editingDidEnd" id="iXo-HZ-5iV"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f22-6h-WzV">
+                                <rect key="frame" x="37" y="470" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Submit"/>
+                                <connections>
+                                    <action selector="submit:" destination="NTZ-0P-YEk" eventType="touchUpInside" id="zBY-ht-JaI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iyN-k1-yYu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -163,7 +163,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tpC-lx-y1y" sceneMemberID="firstResponder"/>
                 <exit id="NTZ-0P-YEk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1470" y="66"/>
+            <point key="canvasLocation" x="1469.5652173913045" y="65.625"/>
         </scene>
         <!--Second View-->
         <scene sceneID="7b0-jW-hFK">
