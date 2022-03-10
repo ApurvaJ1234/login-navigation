@@ -17,7 +17,7 @@
 		184D15D627D8C01D00877FE2 /* login_navigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D15D527D8C01D00877FE2 /* login_navigationUITests.swift */; };
 		184D15D827D8C01D00877FE2 /* login_navigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D15D727D8C01D00877FE2 /* login_navigationUITestsLaunchTests.swift */; };
 		184D15E827D8C94700877FE2 /* Second View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D15E727D8C94700877FE2 /* Second View.swift */; };
-		184D15EC27D8D1F700877FE2 /* Third View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D15EB27D8D1F700877FE2 /* Third View.swift */; };
+		18A14E6B27DA2C4B00E06364 /* Third View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A14E6A27DA2C4B00E06364 /* Third View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		184D15D527D8C01D00877FE2 /* login_navigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_navigationUITests.swift; sourceTree = "<group>"; };
 		184D15D727D8C01D00877FE2 /* login_navigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_navigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		184D15E727D8C94700877FE2 /* Second View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second View.swift"; sourceTree = "<group>"; };
-		184D15EB27D8D1F700877FE2 /* Third View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third View.swift"; sourceTree = "<group>"; };
+		18A14E6A27DA2C4B00E06364 /* Third View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Third View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				184D15B627D8C01B00877FE2 /* SceneDelegate.swift */,
 				184D15B827D8C01B00877FE2 /* ViewController.swift */,
 				184D15BA27D8C01B00877FE2 /* Main.storyboard */,
-				184D15EB27D8D1F700877FE2 /* Third View.swift */,
+				18A14E6A27DA2C4B00E06364 /* Third View.swift */,
 				184D15E727D8C94700877FE2 /* Second View.swift */,
 				184D15BD27D8C01D00877FE2 /* Assets.xcassets */,
 				184D15BF27D8C01D00877FE2 /* LaunchScreen.storyboard */,
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184D15EC27D8D1F700877FE2 /* Third View.swift in Sources */,
+				18A14E6B27DA2C4B00E06364 /* Third View.swift in Sources */,
 				184D15B927D8C01B00877FE2 /* ViewController.swift in Sources */,
 				184D15B527D8C01B00877FE2 /* AppDelegate.swift in Sources */,
 				184D15B727D8C01B00877FE2 /* SceneDelegate.swift in Sources */,

@@ -145,6 +145,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Submit"/>
                                 <connections>
+                                    <action selector="submit:" destination="Vn2-Nq-FAp" eventType="touchUpInside" id="vcu-8P-odK"/>
                                     <action selector="submit:" destination="NTZ-0P-YEk" eventType="touchUpInside" id="zBY-ht-JaI"/>
                                 </connections>
                             </button>
@@ -154,9 +155,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Third View" id="Dp9-1l-idf"/>
                     <connections>
-                        <outlet property="email" destination="7HQ-M5-qtb" id="zgZ-6m-Dhp"/>
-                        <outlet property="fname" destination="9hu-NK-1wk" id="ZaS-6A-brV"/>
-                        <outlet property="phone" destination="68i-Eu-VJ8" id="cNy-jS-TQR"/>
+                        <outlet property="email" destination="7HQ-M5-qtb" id="Uzt-rm-Rfh"/>
+                        <outlet property="fname" destination="9hu-NK-1wk" id="BZh-L9-kbQ"/>
+                        <outlet property="phone" destination="68i-Eu-VJ8" id="xux-SL-nhe"/>
                         <outlet property="vb" destination="9hu-NK-1wk" id="PEr-ke-HbZ"/>
                     </connections>
                 </viewController>
@@ -207,7 +208,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Next"/>
                                 <connections>
-                                    <action selector="next:" destination="Hyb-Vi-bT3" eventType="touchUpInside" id="3XD-m3-bfM"/>
+                                    <action selector="next:" destination="Hyb-Vi-bT3" eventType="touchUpInside" id="LPE-I2-iCx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -219,6 +220,7 @@
                         <outlet property="labelemail" destination="cas-Y9-Gdd" id="Db2-8U-kFw"/>
                         <outlet property="labelname" destination="wAb-sM-uMx" id="Qpn-rk-2Eb"/>
                         <outlet property="labelphone" destination="dZH-qV-6ta" id="a0n-v0-M8f"/>
+                        <outlet property="welcome" destination="Ngn-u0-6RY" id="9dA-Kk-9NU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bu1-Rf-6Vs" sceneMemberID="firstResponder"/>

@@ -13,12 +13,14 @@ class Second_View: UIViewController {
     @IBOutlet weak var labelemail: UILabel!
     @IBOutlet weak var labelphone: UILabel!
     
-    @IBAction func next(_ sender: Any) {
-        let third:Third_View=self.storyboard?.instantiateViewController(withIdentifier: "third") as!Third_View
-       
-        self.navigationController?.pushViewController(third, animated: true)
-
+    @IBAction func next(_ sender: UIButton) {
+        let sec:Second_View=self.storyboard?.instantiateViewController(withIdentifier: "sec") as!Second_View
+      
+        self.navigationController?.pushViewController(sec, animated: true)
+        
     }
+    
+    
     var strname:String! = nil
     var stremail:String! = nil
     var strphone:String! = nil
