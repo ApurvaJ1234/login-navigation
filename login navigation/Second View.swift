@@ -14,9 +14,9 @@ class Second_View: UIViewController {
     @IBOutlet weak var labelphone: UILabel!
     
     @IBAction func next(_ sender: UIButton) {
-        let sec:Second_View=self.storyboard?.instantiateViewController(withIdentifier: "sec") as!Second_View
+        let third:Third_View=self.storyboard?.instantiateViewController(withIdentifier: "third") as!Third_View
       
-        self.navigationController?.pushViewController(sec, animated: true)
+        self.navigationController?.pushViewController(third, animated: true)
         
     }
     
